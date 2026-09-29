@@ -1,0 +1,28 @@
+[package]
+name = "rpsql"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "A preprocessor for SQL files: variables, includes and comments"
+readme = "README.md"
+license = "MIT"
+keywords = ["sql", "preprocessor", "templating", "cli"]
+categories = ["command-line-utilities", "development-tools"]
+repository = "https://github.com/Comet11x/rpsql"
+documentation = "https://docs.rs/rpsql"
+
+
+[lib]
+name = "rpsql"
+path = "src/lib.rs"
+
+[[bin]]
+name = "rpsql"
+path = "src/main.rs"
+
+[dependencies]
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = true
