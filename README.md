@@ -2,7 +2,8 @@
 
 `rpsql` is a preprocessor for SQL files. It expands variables, inlines included
 files and strips comments, so that the result can be handed over to a database
-client. It is a rewrite of the Python project [ppsql](https://github.com/Comet11x/ppsql), with no dependencies outside the standard library.
+client. It is a rewrite of the Python project [ppsql](https://github.com/Comet11x/ppsql),
+with no dependencies outside the standard library.
 
 -----
 
