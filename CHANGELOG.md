@@ -30,5 +30,10 @@ Types of changes
 - Security in case of vulnerabilities.
 -->
 
-## [0.1.0] - 2026-09-29
+## [0.2.0] - 2026-09-29
 
+### Added
+
+- SQL examples
+
+## [0.1.0] - 2026-09-29

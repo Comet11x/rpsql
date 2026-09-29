@@ -1,6 +1,6 @@
 [package]
 name = "rpsql"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2024"
 rust-version = "1.85"
 description = "A preprocessor for SQL files: variables, includes and comments"
@@ -10,6 +10,7 @@ keywords = ["sql", "preprocessor", "templating", "cli"]
 categories = ["command-line-utilities", "development-tools"]
 repository = "https://github.com/Comet11x/rpsql"
 documentation = "https://docs.rs/rpsql"
+exclude = ["examples/*"]
 
 
 [lib]
